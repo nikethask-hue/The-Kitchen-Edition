@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>recipe.maker</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <h1>recipe.maker</h1>
+    <p class="tagline">A tiny client-side app to create and save recipes.</p>
+  </header>
+
+  <main class="container">
+    <section class="new-recipe">
+      <h2>Add Recipe</h2>
+      <form id="recipe-form">
+        <input id="title" placeholder="Recipe title" required />
+        <textarea id="ingredients" placeholder="Ingredients (comma separated)" required></textarea>
+        <textarea id="steps" placeholder="Steps (one per line)" required></textarea>
+        <button type="submit">Add</button>
+      </form>
+    </section>
+
+    <section class="recipes">
+      <h2>Saved Recipes</h2>
+      <div id="recipes-list" class="list"></div>
+    </section>
+  </main>
+
+  <footer class="site-footer">Built from README — recipe.maker</footer>
+  <script src="js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,14 @@
+:root{--bg:#f7f7f8;--card:#ffffff;--accent:#ff7f50;--text:#222}
+*{box-sizing:border-box}
+body{font-family:Inter,system-ui,Segoe UI,Arial,sans-serif;background:var(--bg);color:var(--text);margin:0}
+.site-header{background:linear-gradient(90deg,var(--accent),#ffb07a);color:white;padding:2rem;text-align:center}
+.site-header h1{margin:0;font-size:1.6rem}
+.tagline{opacity:.95;margin-top:.4rem}
+.container{max-width:900px;margin:2rem auto;padding:0 1rem}
+.new-recipe,.recipes{background:var(--card);padding:1rem;border-radius:8px;box-shadow:0 6px 18px rgba(16,24,40,.06);margin-bottom:1rem}
+form input,form textarea{width:100%;padding:.6rem;margin:.45rem 0;border:1px solid #e6e6e9;border-radius:6px}
+form button{background:var(--accent);color:#fff;border:0;padding:.6rem 1rem;border-radius:6px;cursor:pointer}
+.list .card{padding:1rem;border-radius:6px;border:1px solid #f0f0f0;margin:.5rem 0;background:#fff}
+.card h3{margin:.2rem 0}
+.meta{font-size:.9rem;color:#666}
+.site-footer{text-align:center;padding:1rem;color:#666;font-size:.9rem}
